@@ -34,6 +34,10 @@ public class MainActivity extends AppCompatActivity {
         float maxX = mdispSize.x;
         float maxY = mdispSize.y;
 
+        /*
+          Konfetti is released under the ISC license.
+          @see <a href="https://github.com/DanielMartinus/Konfetti/blob/master/LICENSE">LICENSE</a>
+         */
         KonfettiView konfettiView = findViewById(R.id.viewKonfetti);
         KonfettiView konfettiView2 = findViewById(R.id.viewKonfetti2);
         konfettiView.build()
