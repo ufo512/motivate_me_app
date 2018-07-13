@@ -1,9 +1,14 @@
 # Motivate Me app
 
-Simple Android app with interactive widget and nice dialog layout.
+Simple android example app with interactive widget, nice dialog layout and usage of awesome [Konfetti] library
 
-# Screenshots
+## Screenshots
 
+Home screen and [Konfetti]:  
 ![Alt text](/screenshots/app.gif?raw=true)
 
+Dialogs:  
 ![Alt text](/screenshots/dialogs.png?raw=true)
+
+
+  [Konfetti]: <https://github.com/DanielMartinus/Konfetti>
