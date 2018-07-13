@@ -110,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    //String -> Tuple
+    //String -> Tuple<String, String>
     //given a string, trims all characters before "” " and returns Tuple<String, String> with x being quote and y being author
     public static Tuple<String, String> getAuthor(String string){
         Tuple<String, String> tuple = new Tuple<>("", "");
