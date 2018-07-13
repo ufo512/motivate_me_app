@@ -82,7 +82,6 @@ public class MainActivity extends AppCompatActivity {
                 tvQuote.setText(quoteTuple.x);
                 tvAuthor.setText(quoteTuple.y);
 
-
                 final AlertDialog dialog = mBuilder.create();
                 dialog.show();
                 btnQuoteOk.setOnClickListener(new View.OnClickListener() {
