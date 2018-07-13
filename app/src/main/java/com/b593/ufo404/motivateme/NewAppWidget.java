@@ -14,8 +14,9 @@ import java.util.Random;
 
 public class NewAppWidget extends AppWidgetProvider {
 
+    //list must have minimum 2 elements. Otherwise random won't work
     public static String quotes[] = {
-            "„Potrzeba czasu żeby dokonać rzeczy trudnych. Aby dokonać rzeczy niemożliwych potrzeba trochę więcej czasu.”" ,
+            /*"„Potrzeba czasu żeby dokonać rzeczy trudnych. Aby dokonać rzeczy niemożliwych potrzeba trochę więcej czasu.”" ,
             "„Ból jest stanem przejściowym. Duma pozostaje na zawsze.”" ,
             "„Nigdy nie rezygnuj z osiągnięcia celu tylko dlatego, że osiągnięcie go wymaga czasu. Czas i tak upłynie.”" ,
             "„Przyszłość należy do tych, którzy wierzą w piękno swoich marzeń.” Eleanor Roosevelt" ,
@@ -51,7 +52,10 @@ public class NewAppWidget extends AppWidgetProvider {
             "„Pudłujesz 100% strzałów, jeśli w ogóle ich nie wykonujesz.” Wayne Gretzky",
             "„Z życia najlepiej odchodzić jak z uczty: ani spragniony, ani pijany.” Arystoteles",
             "„Work, Work, Work, Work, Work, Work” Rihanna",
-            "„Nie zadowalaj się byciem przeciętną. Przeciętność jest tak samo blisko dna jak i szczytu.”"
+            "„Nie zadowalaj się byciem przeciętną. Przeciętność jest tak samo blisko dna jak i szczytu.”"*/
+            "„True knowledge exists in knowing that you know nothing.” Socrates",
+            "„It is during our darkest moments that we must focus to see the light.” Aristotle",
+            ""
     };
 
     public static String ACTION_WIDGET_RECEIVER = "ActionReceiverWidget";
@@ -115,6 +119,7 @@ public class NewAppWidget extends AppWidgetProvider {
     }
 
     //returns random quote from "quotes" list
+    //ISSUE: last element of the "quotes" is never produced
     public static String randomQuote(){
         Random r = new Random();
         int high = quotes.length-1;
