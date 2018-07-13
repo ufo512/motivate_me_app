@@ -1,1 +1,1 @@
-# motivate_me_app
+# Motivate Me app
