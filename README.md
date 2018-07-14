@@ -10,5 +10,7 @@ Home screen and [Konfetti]:
 Dialogs:  
 ![Alt text](/screenshots/dialogs.png?raw=true)
 
+#### Music used:
+Kevin MacLeod - Long Road Ahead
 
   [Konfetti]: <https://github.com/DanielMartinus/Konfetti>
